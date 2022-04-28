@@ -1,19 +1,15 @@
-// const {
-//     Connection,
-//     PublicKey,
-//     custerApiUrl,
-//     Keypair,
-//     LAMPORTS_PER_SOL
-// } = require("@solana/web3.js")
-//
-// const wallet = new Keypair()
-//
-// const publicKey = wallet._keypair.publicKey
-// const secretKey = wallet._keypair.secretKey
-//
-// console.log(publicKey)
-// console.log(secretKey)
+const {
+    Connection,
+    PublicKey,
+    custerApiUrl,
+    Keypair,
+    LAMPORTS_PER_SOL
+} = require("@solana/web3.js")
 
-const faf = require("@solana/web3.js");
+const wallet = new Keypair()
 
-console.log(faf);
+const publicKey = wallet._keypair.publicKey
+const secretKey = wallet._keypair.secretKey
+
+console.log(publicKey)
+console.log(secretKey)
